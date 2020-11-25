@@ -334,7 +334,7 @@
   opacity: 0.7;
 }
 
-.footer__author:hover {
+.footer__author:active {
   opacity: 0.5;
 }
 
