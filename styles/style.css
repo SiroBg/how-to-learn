@@ -9,10 +9,6 @@
   font-family: 'Helvetica Neue', Arial, sans-serif;
 }
 
-.centered-block {
-  margin: 0 auto;
-}
-
 .header {
   height: 100vh;
   min-height: 600px;
@@ -154,6 +150,14 @@
   margin: 0 auto 20px auto;
 }
 
+.digits__subtitle {
+  margin: 0 auto;
+}
+
+.digits__table {
+  margin: 0 auto;
+}
+
 .section-title {
   width: 60%;
   text-align: center;
@@ -239,8 +243,7 @@
 
 .feynman__title {
   width: 648px;
-  margin-top: 0;
-  margin-bottom: 70px;
+  margin: 0 auto 70px;
   text-align: center;
   line-height: 1.15;
   font-size: 120px;
@@ -248,8 +251,7 @@
 }
 
 .feynman__subtitle {
-  margin-top: 0;
-  margin-bottom: 0;
+  margin: 0 auto;
   text-align: center;
   line-height: 51px;
   font-size: 36px;
@@ -284,7 +286,15 @@
 }
 
 .kaufman__title {
-  margin-bottom: 20px;
+  margin: 0 auto 20px;
+}
+
+.kaufman__subtitle {
+  margin: 0 auto;
+}
+
+.kaufman__table {
+  margin: 0 auto;
 }
 
 .kaufman__triangle {
@@ -309,6 +319,7 @@
 .footer__columns {
   width: 90%;
   min-height: 250px;
+  margin: 0 auto;
   display: flex;
   justify-content: space-between;
 }
